@@ -1,0 +1,13 @@
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\bin\Debug\Ejercicio6_9.exe.config
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\bin\Debug\Ejercicio6_9.exe
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\bin\Debug\Ejercicio6_9.pdb
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\obj\Debug\Ejercicio6_9.csprojResolveAssemblyReference.cache
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\obj\Debug\MainWindow.baml
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\obj\Debug\MainWindow.g.cs
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\obj\Debug\App.g.cs
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\obj\Debug\Ejercicio6_9_MarkupCompile.cache
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\obj\Debug\Ejercicio6_9.g.resources
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\obj\Debug\Ejercicio6_9.Properties.Resources.resources
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\obj\Debug\Ejercicio6_9.csproj.GenerateResource.Cache
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\obj\Debug\Ejercicio6_9.exe
+D:\alumno1718\Escritorio\C#\Ejercicio6_9\Ejercicio6_9\obj\Debug\Ejercicio6_9.pdb

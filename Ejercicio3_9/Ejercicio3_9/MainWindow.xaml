@@ -1,0 +1,22 @@
+﻿<Window x:Class="Ejercicio3_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ejercicio_03" Height="350" Width="525">
+    <Grid>
+        <StackPanel Margin="69,0,70,0">
+            <StackPanel Height="40" Margin="0,80,0,0" Orientation="Horizontal">
+                <Button Name="btnGenerar" Content="Generar Número" Height="25" Click="btnGenerar_Click"/>
+                <CheckBox Name="chkVerNumero" Content="Ver número" Margin="20,12" IsEnabled="False" Checked="chkVerNumero_Checked" Unchecked="chkVerNumero_Unchecked"/>
+                <TextBlock Name="txtOculto" Text="" Height="20" Margin="10, 4" Visibility="Hidden"/>
+            </StackPanel>
+            <Label Name="lblTitulo" Content="Introduce el Número" Margin="0, 10, 0, 0"/>
+            <StackPanel Height="40" Margin="0,0,0,0" Orientation="Horizontal">
+                <TextBox Name="txtNumero" Text="" Height="25" Width="40"/>
+                <Button Name="btnProbar" Content="Probar" Height="25" Width="80" Margin="70, 0" IsEnabled="False" Click="btnProbar_Click"/>
+                <Button Name="btnIntroducir" Content="Introducir" Height="25" Width="80" Margin="0, 0" Click="btnIntroducir_Click"/>
+            </StackPanel>
+            <TextBlock Name="txtRespuesta" Text="" Margin="0,20" FontWeight="Bold" FontSize="15"/>
+            <Button Name="btnReset" Content="Volver a jugar" Click="btnReset_Click" Visibility="Hidden"/>
+        </StackPanel>
+    </Grid>
+</Window>

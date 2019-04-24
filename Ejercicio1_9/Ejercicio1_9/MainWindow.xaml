@@ -1,0 +1,21 @@
+﻿<Window x:Class="Ejercicio1_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ejercicio_01" Height="350" Width="525" ResizeMode="NoResize"
+        Name="wndPrincipal">
+    <Grid>
+        <Label Content="Calcular la suma de los primeros n-números.&#xD;&#xA;El valor de n se lee desde teclado" HorizontalAlignment="Left" Margin="60,20,0,0" VerticalAlignment="Top" Width="402" Height="65" FontSize="20"/>
+        <StackPanel Margin="104,109,108,170" Orientation="Horizontal">
+            <Label Content="Número: " FontSize="15"/>
+            <TextBox Name="txtDatos" Text="" Height="25" VerticalAlignment="Bottom" Margin="10,0,0,6" Width="215" FontSize="13"/>
+        </StackPanel>
+
+        <StackPanel Margin="92,177,84,95" Orientation="Horizontal">
+            <Button Name="btnCalcular" Content="Calcular" Width="100" Height="25" Click="btnCalcular_Click"/>
+            <Button Name="btnCerrar" Content="Cerrar" Width="100" Height="25" Margin="130,0,0,0" Click="btnCerrar_Click"/>
+        </StackPanel>
+
+        <Label Content="La suma obtenida es: " Width="200" Margin="92,257,227,10" FontSize="20"/>
+        <Label Name="lblResultado" Content="" Width="200" FontSize="20" Margin="309,257,10,10" FontWeight="Bold"/>
+    </Grid>
+</Window>
