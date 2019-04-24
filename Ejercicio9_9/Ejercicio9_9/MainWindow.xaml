@@ -1,0 +1,109 @@
+﻿<Window x:Class="Ejercicio9_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tirada de Dados" Height="327.604" Width="738.958" ResizeMode="CanMinimize">
+    <Grid>
+        <Button Name="btnTirar" Content="Tirar" HorizontalAlignment="Left" Margin="224,55,0,0" VerticalAlignment="Top" Width="75" FontSize="14" Click="btnTirar_Click"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="97" Margin="41,55,0,0" Stroke="Black" VerticalAlignment="Top" Width="144"/>
+        <CheckBox Name="chbSimular" Content="Simular" HorizontalAlignment="Left" Margin="224,116,0,0" VerticalAlignment="Top" FontSize="14"/>
+
+        <Button Name="btnAutomatico" Content="Automático" HorizontalAlignment="Left" Margin="41,180,0,0" VerticalAlignment="Top" Width="91" FontSize="14"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="392,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63"><Run Language="es-es" Text="Resultados"/></TextBlock>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="304,118,0,0" VerticalAlignment="Top" Width="180" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.296"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="420,119,0,0" VerticalAlignment="Top" Width="182" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.059"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="393,209,0,-9" VerticalAlignment="Top" Width="117" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180.282"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="394,27,0,0" VerticalAlignment="Top" Width="118" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180.282"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="507,81,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.296"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="623,82,-2,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.059"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="561,137,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180.282"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="562,25,0,0" VerticalAlignment="Top" Width="118" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180.282"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="394,27,0,0" VerticalAlignment="Top" Width="118" RenderTransformOrigin="0.5,0.5">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180.282"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <TextBlock HorizontalAlignment="Left" Margin="562,55,0,0" TextWrapping="Wrap" Text="Estadística" VerticalAlignment="Top" RenderTransformOrigin="0.436,-5.326"/>
+        <TextBlock x:Name="tbxResultado" HorizontalAlignment="Left" Margin="401,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="188" Width="103"/>
+        <TextBlock x:Name="tbxEstadistica" HorizontalAlignment="Left" Margin="571,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="99" Width="98"><Run Language="es-es" Text="1 "/><LineBreak/><Run Language="es-es" Text="2"/><LineBreak/><Run Language="es-es" Text="3"/><LineBreak/><Run Language="es-es" Text="4"/><LineBreak/><Run Language="es-es" Text="5"/><LineBreak/><Run Language="es-es" Text="6"/></TextBlock>
+
+
+    </Grid>
+</Window>
